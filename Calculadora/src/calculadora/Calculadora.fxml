@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" pickOnBounds="false" prefHeight="318.0" prefWidth="633.0" scaleShape="false" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadora.CalculadoraController">
+    <children>
+        <Button fx:id="btnSoma" layoutX="67.0" layoutY="204.0" onAction="#action" text="Somar" />
+      <TextField fx:id="txtN1" layoutX="67.0" layoutY="76.0" prefHeight="25.0" prefWidth="335.0" />
+      <TextField fx:id="txtN2" layoutX="67.0" layoutY="150.0" prefHeight="25.0" prefWidth="335.0" />
+      <Label layoutX="67.0" layoutY="59.0" text="Número 1" />
+      <Label layoutX="67.0" layoutY="129.0" text="Número 2" />
+      <Label fx:id="lblResultado" alignment="CENTER" contentDisplay="CENTER" layoutX="61.0" layoutY="251.0" prefWidth="335.0" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button fx:id="btnMultiplica" layoutX="254.0" layoutY="204.0" mnemonicParsing="false" onAction="#action" text="Multiplicar" />
+      <Button fx:id="btnDivide" layoutX="351.0" layoutY="204.0" mnemonicParsing="false" onAction="#action" text="Dividir" />
+      <Button fx:id="btnSubtrai" layoutX="161.0" layoutY="204.0" mnemonicParsing="false" onAction="#action" text="Subtrair" />
+      <ImageView fitHeight="155.0" fitWidth="145.0" layoutX="441.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@calculadora.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
